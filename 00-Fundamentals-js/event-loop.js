@@ -1,4 +1,5 @@
-// 0. Event loop - why doesn't this do what supposed to?
+// 00-Fundamentals-js/event-loop.js
+
 
 console.log('1');
 setTimeout(() => console.log('2'))
@@ -20,3 +21,5 @@ macrotask: A task that is added to the macrotask queue and is executed after the
 why does the microtask take priority over a macrotask?
 
 **/
+
+
