@@ -37,7 +37,7 @@ js-review/
 
 | Folder | Focus | Contents |
 | --- | --- | --- |
-| `00-fundamentos-js` | JavaScript foundations | Core language concepts such as the event loop, closures, `this`, prototypes, and async/await. |
+| `00-fundamentals-js` | JavaScript foundations | Core language concepts such as the event loop, closures, `this`, prototypes, and async/await. |
 | `01-data-estructure` | Data structures | Practice files for arrays, linked lists, stacks, queues, hash maps, and trees. |
 | `02-apis-git` | APIs and Git workflow | Fetch and REST calls, error handling, debugging, Git workflow notes, and a small integration project. |
 
