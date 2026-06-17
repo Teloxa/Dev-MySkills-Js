@@ -5,10 +5,10 @@ This repository is organized as a structured JavaScript study path. Each folder 
 ## Project Structure
 
 ```text
-js-repaso/
+js-review/
 ├── README.md                        ← general index with a topic table
 │
-├── 01-fundamentos-js/               ← weeks 1–4, current block
+├── 00-fundamentals-js/               ← weeks 1–4, current block
 │   ├── README.md
 │   ├── event-loop.js                ← in progress
 │   ├── closures.js                  ← in progress
@@ -16,7 +16,7 @@ js-repaso/
 │   ├── prototypes.js                ← in progress
 │   └── async-await.js
 │
-├── 02-estructuras-datos/            ← weeks 5–8
+├── 01-data-estructure/               ← weeks 5–8
 │   ├── README.md
 │   ├── arrays.js
 │   ├── linked-list.js
@@ -24,7 +24,7 @@ js-repaso/
 │   ├── hash-map.js
 │   └── trees.js
 │
-└── 03-apis-git/                     ← weeks 9–12
+└── 02-apis-git/                     ← weeks 9–12
 	├── README.md
 	├── fetch-rest.js
 	├── error-handling.js
@@ -37,20 +37,20 @@ js-repaso/
 
 | Folder | Focus | Contents |
 | --- | --- | --- |
-| `01-fundamentos-js` | JavaScript foundations | Core language concepts such as the event loop, closures, `this`, prototypes, and async/await. |
-| `02-estructuras-datos` | Data structures | Practice files for arrays, linked lists, stacks, queues, hash maps, and trees. |
-| `03-apis-git` | APIs and Git workflow | Fetch and REST calls, error handling, debugging, Git workflow notes, and a small integration project. |
+| `00-fundamentos-js` | JavaScript foundations | Core language concepts such as the event loop, closures, `this`, prototypes, and async/await. |
+| `01-data-estructure` | Data structures | Practice files for arrays, linked lists, stacks, queues, hash maps, and trees. |
+| `02-apis-git` | APIs and Git workflow | Fetch and REST calls, error handling, debugging, Git workflow notes, and a small integration project. |
 
 ## How To Use This Repo
 
-1. Start with the current phase and work file by file.
-2. Use each folder README as a local guide for the topics inside that block.
-3. Keep examples small, focused, and easy to revisit later.
-4. Move to the next phase only after the previous one feels solid.
+0. Start with the current phase and work file by file.
+1. Use each folder README as a local guide for the topics inside that block.
+2. Keep examples small, focused, and easy to revisit later.
+3. Move to the next phase only after the previous one feels solid.
 
 ## Current Status
 
-- `01-fundamentos-js` is the active block.
+- `00-fundamentals-js` is the active block.
 - The other folders represent the next learning phases and will be filled progressively.
 
 ## Learning Goals
