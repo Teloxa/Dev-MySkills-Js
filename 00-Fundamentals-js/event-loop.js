@@ -22,3 +22,19 @@ why does the microtask take priority over a macrotask?
 
 **/
 
+/** Simulate a DB query using setTimeout
+@param {string} query - The query to be executed.
+*/
+
+function simulateDBQuery(query) {
+    console.log(`Executing query: "${query}"...`);
+
+// setTimeout receive a callback and the time in milliseconds, it will execute the callback after the time has passed.
+setTimeOut(() =>{
+    console.log(`[Result] Data retrieved for "${query}"`);
+}, 2000); // 2 seconds delay
+
+console.log("This line is printed BEFORE the timeout completes, demonstrating the asynchronous nature of setTimeout.");
+}
+
+simulateDBQuery("SELECT * FROM users WHERE age id = 101");
