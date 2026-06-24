@@ -30,7 +30,7 @@ function simulateDBQuery(query) {
     console.log(`Executing query: "${query}"...`);
 
 // setTimeout receive a callback and the time in milliseconds, it will execute the callback after the time has passed.
-setTimeOut(() =>{
+setTimeout(() => {
     console.log(`[Result] Data retrieved for "${query}"`);
 }, 2000); // 2 seconds delay
 
